@@ -57,9 +57,9 @@
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<!-- <button class="login100-form-btn">
+							<button class="login100-form-btn">
 								Login
-							</button> -->
+							</button> 
 								<input type="submit" class="container-login100-form-btn" id="login-form-submit">
 						</div>
 					</div>
@@ -123,7 +123,7 @@
 	const loginForm = document.getElementById("login-form");
 	const loginButton = document.getElementById("login-form-submit");
 	const loginErrorMsg = document.getElementById("login-error-msg");
-	loginButton.addEventListener("click", (e)=> {
+	loginButton.addEventListener("login100-form-btn", (e)=> {
 		e.preventDefault();
 		const user = loginForm.username.value;
 		const pass = loginForm.password.value;
